@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WJfjsX9NJTGpyNLg3lKq0qmHe18Mr+JBpbH8oXuejhiHz4hv/YYnJgjdYmq9JIFS1WTdaaI0D5cAEb11+ug1gw==",
+  "success": true,
+  "projectFilePath": "/ssd/ssd3/jzchen/dotnet/qps/qps.csproj",
+  "expectedPackageFiles": [
+    "/home/appadmin/.nuget/packages/dolphindb_csharpapi/1.30.19.4/dolphindb_csharpapi.1.30.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}

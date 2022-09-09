@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "dolphindb_csharpapi/1.30.19.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/dolphindb_csharpapi.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/dolphindb_csharpapi.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dolphindb_csharpapi/1.30.19.4": {
+      "sha512": "iI2wktYxsg6t0SZuQK++g8KjyD5FILw5ky4HghWmO/ymPZ0+cpJJuFVhUSxKSB9KRfXk5qsHEv2ffjZQZ3rnQg==",
+      "type": "package",
+      "path": "dolphindb_csharpapi/1.30.19.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dolphindb_csharpapi.1.30.19.4.nupkg.sha512",
+        "dolphindb_csharpapi.nuspec",
+        "lib/net47/dolphindb_csharpapi.dll",
+        "lib/netcoreapp3.1/dolphindb_csharpapi.dll",
+        "lib/netcoreapp3.1/dolphindb_csharpapi.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "dolphindb_csharpapi >= 1.30.19.4"
+    ]
+  },
+  "packageFolders": {
+    "/home/appadmin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/ssd/ssd3/jzchen/dotnet/qps/qps.csproj",
+      "projectName": "qps",
+      "projectPath": "/ssd/ssd3/jzchen/dotnet/qps/qps.csproj",
+      "packagesPath": "/home/appadmin/.nuget/packages/",
+      "outputPath": "/ssd/ssd3/jzchen/dotnet/qps/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/appadmin/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "dolphindb_csharpapi": {
+            "target": "Package",
+            "version": "[1.30.19.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
