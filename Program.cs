@@ -355,14 +355,14 @@ class Writer
 
             long currentTime2 = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeMilliseconds();
             int elapsed = (int)(currentTime2 - currTime);
-            if (elapsed < 1000)
-            {
-                Thread.Sleep(1000 - elapsed);
-            }
-            else
-            {
-                Console.WriteLine("takes:" + elapsed);
-            }
+            // if (elapsed < 1000)
+            // {
+            //     Thread.Sleep(1000 - elapsed);
+            // }
+            // else
+            // {
+            //     Console.WriteLine("takes:" + elapsed);
+            // }
             currTime = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeMilliseconds();
         } while (currTime < endTime);
 
@@ -464,14 +464,14 @@ class WriterDFS
 
             long currentTime2 = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeMilliseconds();
             int elapsed = (int)(currentTime2 - currTime);
-            if (elapsed < 1000)
-            {
-                Thread.Sleep(1000 - elapsed);
-            }
-            else
-            {
-                Console.WriteLine("takes:" + elapsed);
-            }
+            // if (elapsed < 1000)
+            // {
+            //     Thread.Sleep(1000 - elapsed);
+            // }
+            // else
+            // {
+            //     Console.WriteLine("takes:" + elapsed);
+            //}
             currTime = new DateTimeOffset(DateTime.UtcNow).ToUnixTimeMilliseconds();
         } while (currTime < endTime);
 
